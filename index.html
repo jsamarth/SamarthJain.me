@@ -94,9 +94,6 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.facebook.com/samarthjain27"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
                 <a href="https://www.linkedin.com/in/jsamarth/"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
             </li>
             <li>
@@ -787,8 +784,6 @@
             <div class="col-full">
                 <h3>Contact</h3>
                 <h1>Drop a hello.</h1>
-                
-                <p class="lead">I am actively seeking Computer Engineering positions starting from January. My skillset is versatile, having worked on projects ranging from low-level kernel development to projects on Reinforcement Learning<br>
             </div>
         </div>
 
@@ -867,9 +862,9 @@
                         <i class="im im-github" aria-hidden="true"></i>
                         <span>Github</span>
                     </a></li>
-                    <li><a href="https://www.facebook.com/samarthjain27">
-                        <i class="im im-facebook" aria-hidden="true"></i>
-                        <span>Facebook</span>
+                    <li><a href="https://www.instagram.com/samarthj_27">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
                     </a></li>
                 </ul>
                     
@@ -880,7 +875,7 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Samarth Jain 2020</span> 
+                    <span>© Copyright Samarth Jain <span id="currentYear"></span></span> 
                 </div>
 
                 <div class="go-top">
@@ -891,6 +886,14 @@
         </div> <!-- end footer-bottom -->
 
     </footer> <!-- end footer -->
+
+    <script>
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+
+        // Display the current year in the specified HTML element
+        document.getElementById("currentYear").innerHTML = currentYear;
+    </script>
 
 
     <!-- photoswipe background
