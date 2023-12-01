@@ -4121,6 +4121,15 @@ article.blog-single .blog-content {
     margin-bottom: 3.9rem;
 }
 
+.paddd_marggg {
+    /* padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 10%; */
+    margin-bottom:  5%;
+    margin-left:  5%;
+    margin-right:  5%;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
